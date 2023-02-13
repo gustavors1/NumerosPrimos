@@ -2,6 +2,7 @@ public class Primos {
     public static void main(String[] args) {
         int contador = 0;
         int num = 2;
+    // Variables creadas, el num comenzamos por 2 porque es el primer primo
 
         while (contador < 100) {
             if (esPrimo(num)) {
